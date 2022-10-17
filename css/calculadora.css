@@ -1,0 +1,35 @@
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://s1.1zoom.me/big0/480/School_Notebooks_Pencils_Ballpoint_pen_561232_1280x853.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 30px;
+}
+.calculadora{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: rgba(129, 129, 129, 0.555);
+}
+#nome{
+    color: green;
+}
+#departamento{
+    padding-inline: 38px;
+}
