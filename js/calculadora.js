@@ -23,23 +23,29 @@ function calcular() {
     const resultado = document.getElementById('resultado');
 if(valor1 == "" || valor2 == ""){
     alert('Erro!!! Preencha todos os campos !!');
+    resultado.value = 'Preencha todos os campos!!!'
+    resultado.style = 'border: 1px solid red'
+    document.getElementById('resultado').innerText = resultado;
 }
 else{
     if(departamento == "1"){
         resultado.value = parseInt(valor1) + parseInt(valor2);
+        resultado.style = 'border: 1px solid green'
         document.getElementById('resultado').innerText = resultado;
     }
     else if(departamento == "2"){
         resultado.value = valor1 - valor2;
-
+        resultado.style = 'border: 1px solid green'
         document.getElementById('resultado').innerText = resultado;
     }
     else if(departamento == "3"){
         resultado.value = valor1 / valor2;
+        resultado.style = 'border: 1px solid green'
         document.getElementById('resultado').innerText = resultado;
     }
     else if(departamento == "4"){
         resultado.value = valor1 * valor2;
+        resultado.style = 'border: 1px solid green'
         document.getElementById('resultado').innerText = resultado;
     }
 }
