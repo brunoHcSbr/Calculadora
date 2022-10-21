@@ -1,5 +1,6 @@
 const nome = prompt('Digite o seu nome')
 document.getElementById('nome').innerText = nome;
+
 function verificar(campo){
     if(campo.value != ""){
         campo.style = "border: 1px solid green";
